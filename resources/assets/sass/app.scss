@@ -7,3 +7,21 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.avatar {
+    width:50px!important;
+}
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.navbar-nav > li > .dropdown-menu > li i {
+    margin-right: 15px;
+}
+.navbar-nav > li > .dropdown-toggle {
+    height:60px;
+    line-height:60px;
+    padding:0 10px;
+    min-width:110px;
+}
