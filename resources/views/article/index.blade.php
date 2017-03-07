@@ -9,6 +9,9 @@
 
     @include('widgets.article')
 
-    {{ $articles->links() }}
-
+    <div class="row">
+        <div class="text-center">
+          {{ $articles->links() }}
+        </div>
+    </div>
 @endsection
